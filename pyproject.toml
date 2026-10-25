@@ -1,0 +1,22 @@
+[project]
+name = "underhood"
+version = "1.0.0"
+description = "Free tools for Claude to mod games and apps: engine scanner, backups, local ComfyUI assets, sprite and 3D-to-sprite pipelines, Windows capture and input, showcase video, mod lint, shared field notes."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=10",
+    "numpy>=1.24",
+    "pyyaml>=6",
+]
+
+[project.scripts]
+uh = "uh.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["uh"]

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="300" viewBox="0 0 680 300" role="img" aria-labelledby="t d">
+<title id="t">Underhood pipeline</title>
+<desc id="d">Five skills in order. recon scans the target: engine, anti-cheat (uh scan, uh kb). dig decompiles and decodes: AES keys, formats (REA, uh probe). forge builds and verifies: backup, test in game (uh backup, uh win). art makes local assets: engine-ready files (uh comfy, uh sprite). ship releases and shares: lint, clip, field note (uh publish, uh video). They stand on a shared layer: RULES.md, state.json, MODLOG.md and evidence marked observed, inferred or unknown.</desc>
+<style>
+svg{--bg0:#FDFCFA;--bg1:#F4F2ED;--line:#E4E0D7;--grid:#DAD5CB;--ink:#16151D;--t2:#423F4B;--t3:#5E5A67;--acc:#5446D6;--acch:#7A6EF2;--accl:#3A2FB8;--accp:#ECE9FA;--accg:#8F84F5;--sht:#FFFFFF;--shl:#D9DCE5;--shr:#BCC1CF;--she:#A7ADBD;--lid:#D3D6E0;--rib:#BCC1CD;--pcb:#171C33;--pwl:#10152A;--pwr:#0B0F20;--trc:#323C68;--pad:#4A5480;--cht:#2A3150;--chl:#1E2440;--chr:#151A31;--cpt:#AEB4CB;--cpb:#6E7593;--glt:#FFFFFF;--gll:#E6E3FB;--glr:#D1CCF6;--code:#C5CAD8;--mtt:#D6D9E2;--mts:#9097AB;--mtd:#5B6278;--dt:#F4F2FF;--dl:#C9C2FF;--dr:#A89DFF;--shadow:#1E1B2A;--plt:#EFEDE7}
+@media (prefers-color-scheme:dark){svg{--bg0:#151A2A;--bg1:#0F1320;--line:#252C3F;--grid:#222940;--ink:#F2F4FA;--t2:#BCC2D3;--t3:#959CB2;--acc:#A398FF;--acch:#8F82FF;--accl:#6A5CF5;--accp:#24224A;--accg:#7B6CFF;--sht:#3A4364;--shl:#2A3150;--shr:#1F253D;--she:#56608C;--lid:#272F4D;--rib:#343D60;--pcb:#0B0E1B;--pwl:#080B16;--pwr:#060811;--trc:#28305A;--pad:#3E4775;--cht:#252C49;--chl:#1A2038;--chr:#12172B;--cpt:#8E95B2;--cpb:#4F5675;--glt:#1F2546;--gll:#191E3B;--glr:#141831;--code:#3C4570;--mtt:#6C7598;--mts:#454D6E;--mtd:#2E3452;--dt:#E4E0FF;--dl:#B3A9FF;--dr:#8E82FF;--shadow:#000000;--plt:#1E2439}}
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.ink{fill:var(--ink)}.t2{fill:var(--t2)}.t3{fill:var(--t3)}.acc{fill:var(--acc)}
+.card{fill:url(#bg);stroke:var(--line)}
+.sht{fill:var(--sht)}.shl{fill:var(--shl)}.shr{fill:var(--shr)}
+.she{fill:none;stroke:var(--she)}.rib{fill:none;stroke:var(--rib)}.pls{fill:none;stroke:var(--sht);opacity:.7}
+.pcb{fill:var(--pcb)}.pwl{fill:var(--pwl)}.pwr{fill:var(--pwr)}
+.tra{fill:none;stroke:var(--acch);stroke-linecap:round;stroke-linejoin:round}
+.codeD{fill:none;stroke:var(--cpt);stroke-linecap:round}
+.chk{fill:none;stroke:var(--dt);stroke-linecap:round;stroke-linejoin:round}
+.sweep{fill:var(--acch);opacity:.28}.evo{fill:none;stroke:var(--acc)}
+.aT{fill:var(--acch)}.aL{fill:var(--acc)}.aR{fill:var(--accl)}.aP{fill:var(--accp)}
+.shadow{fill:var(--shadow)}.plt{fill:var(--plt)}
+.s0{stop-color:var(--bg0)}.s1{stop-color:var(--bg1)}.sa{stop-color:var(--accg)}
+.sml{stop-color:var(--shl)}.smr{stop-color:var(--shr)}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="s0"/><stop offset="1" class="s1"/></linearGradient>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+<filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+<linearGradient id="plf" x1="28" y1="0" x2="652" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" class="sml"/><stop offset=".12" class="sml"/><stop offset=".88" class="sml"/><stop offset="1" class="smr"/></linearGradient>
+<radialGradient id="halo" cx="340" cy="166" r="330" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 166) scale(1 .45) translate(-340 -166)"><stop offset="0" class="sa" stop-opacity=".12"/><stop offset="1" class="sa" stop-opacity="0"/></radialGradient>
+</defs>
+<rect class="card" x=".5" y=".5" width="679" height="299" rx="16"/>
+<rect x="1" y="1" width="678" height="298" rx="15" fill="url(#halo)"/>
+<path class="shadow" opacity=".16" filter="url(#soft)" transform="translate(0 8)" d="M28 166A62.4 36 0 0 0 90.4 202H589.6A62.4 36 0 0 0 652 166V206A62.4 36 0 0 1 589.6 242H90.4A62.4 36 0 0 1 28 206Z"/>
+<path style="fill:url(#plf)" d="M28 166A62.4 36 0 0 0 90.4 202H589.6A62.4 36 0 0 0 652 166V206A62.4 36 0 0 1 589.6 242H90.4A62.4 36 0 0 1 28 206Z"/>
+<path class="plt" d="M90.4 130H589.6A62.4 36 0 0 1 589.6 202H90.4A62.4 36 0 0 1 90.4 130Z"/>
+<path class="she" stroke-width="1" d="M28 166A62.4 36 0 0 0 90.4 202H589.6A62.4 36 0 0 0 652 166"/>
+<path class="pls" stroke-width="1" d="M28.5 166A61.9 35.5 0 0 1 90.4 130.5H589.6A61.9 35.5 0 0 1 651.5 166"/>
+<path class="rib" stroke-width="1" d="M90.4 139H589.6A46.8 27 0 0 1 589.6 193H90.4A46.8 27 0 0 1 90.4 139Z"/>
+<path class="tra" stroke-width="1.4" opacity=".55" stroke-dasharray="2 3" d="M141 166H167M265 166H291M389 166H415M513 166H539"/>
+<path class="tra" stroke-width="1.8" filter="url(#glow)" d="M151.5 162L156.5 166L151.5 170M275.5 162L280.5 166L275.5 170M399.5 162L404.5 166L399.5 170M523.5 162L528.5 166L523.5 170"/>
+<g id="recon" transform="translate(92 166) scale(1.15)">
+<path class="shl" d="M-39 7.5L0 30L0 22.5L-39 0Z"/><path class="shr" d="M0 30L39 7.5L39 0L0 22.5Z"/><path class="sht" d="M0 -22.5L39 0L0 22.5L-39 0Z"/><path class="she" stroke-width=".8" d="M-39 0L0 22.5L39 0"/><path class="rib" stroke-width=".8" d="M0 -18.8L32.6 0L0 18.8L-32.6 0Z"/>
+<path class="sweep" d="M0 0L14 10.7L12.8 11.2L11.5 11.7L10.1 12.1L8.7 12.5L7.3 12.8L5.8 13L4.3 13.2L2.8 13.3L1.3 13.4L-0.2 13.4L-1.7 13.4L-3.2 13.3L-4.7 13.2L-6.2 12.9L-7.7 12.7L-9.1 12.4Z"/><ellipse class="tra" stroke-width="1.1" opacity=".55" cx="0" cy="0" rx="23.3" ry="13.4"/><ellipse class="tra" stroke-width="1" opacity=".4" cx="0" cy="0" rx="14.7" ry="8.5"/><path class="tra" stroke-width="1.3" d="M11.3 6.5L18.2 10.5M-18.2 -10.5L-11.3 -6.5M-11.3 6.5L-18.2 10.5M18.2 -10.5L11.3 -6.5"/><path class="tra" stroke-width="1.6" filter="url(#glow)" d="M0 0L-9.1 12.4"/><ellipse class="aT" filter="url(#glow)" cx="4.8" cy="10.2" rx="2.6" ry="1.5"/><path class="shadow" opacity=".16" filter="url(#soft2)" d="M0 -7L14.7 1.5L0 10L-14.7 1.5Z"/><path class="shl" d="M-13 0L0 7.5L0 -7.5L-13 -15Z"/><path class="shr" d="M0 7.5L13 0L13 -15L0 -7.5Z"/><path class="sht" d="M0 -22.5L13 -15L0 -7.5L-13 -15Z"/><path class="she" stroke-width=".8" d="M-13 -15L0 -7.5L13 -15"/><path class="tra" stroke-width="1.4" filter="url(#glow)" d="M-13 -8L0 -0.5L13 -8"/>
+</g>
+<g id="dig" transform="translate(216 166) scale(1.15)">
+<path class="shl" d="M-39 7.5L0 30L0 22.5L-39 0Z"/><path class="shr" d="M0 30L39 7.5L39 0L0 22.5Z"/><path class="sht" d="M0 -22.5L39 0L0 22.5L-39 0Z"/><path class="she" stroke-width=".8" d="M-39 0L0 22.5L39 0"/><path class="rib" stroke-width=".8" d="M0 -18.8L32.6 0L0 18.8L-32.6 0Z"/>
+<path class="shadow" opacity=".16" filter="url(#soft2)" d="M0 -12L24.2 2L0 16L-24.2 2Z"/><path class="shl" d="M-22.5 0L0 13L0 0L-11.3 -6.5L-11.3 -19.5L-22.5 -26Z"/><path class="shr" d="M0 13L22.5 0L22.5 -26L11.3 -19.5L11.3 -6.5L0 0Z"/><path class="sht" d="M0 -39L22.5 -26L11.3 -19.5L0 -26L-11.3 -19.5L-22.5 -26Z"/><path class="pwl" d="M0 -13L-11.3 -6.5L-11.3 -19.5L0 -26Z"/><path class="pwr" d="M0 -13L11.3 -6.5L11.3 -19.5L0 -26Z"/><path class="pcb" d="M0 -13L11.3 -6.5L0 0L-11.3 -6.5Z"/><path class="codeD" stroke-width="1.5" d="M1.7 -22L8.7 -18M3.5 -15L9.5 -11.5M-1.7 -22L-6.9 -19M-1.7 -19L-9.5 -14.5"/><path class="tra" stroke-width="1.5" filter="url(#glow)" d="M1.7 -19L6.1 -16.5M-3.5 -15L-7.8 -12.5"/><g filter="url(#glow)"><path class="aL" d="M-4.3 -6.5L0 -4L0 -7L-4.3 -9.5Z"/><path class="aR" d="M0 -4L4.3 -6.5L4.3 -9.5L0 -7Z"/><path class="aT" d="M0 -12L4.3 -9.5L0 -7L-4.3 -9.5Z"/></g><path class="she" stroke-width=".8" stroke-linejoin="round" d="M-22.5 -26L-11.3 -19.5L-11.3 -6.5L0 0L11.3 -6.5L11.3 -19.5L22.5 -26"/><path class="tra" stroke-width="1" opacity=".8" d="M-11.3 -19.5L0 -26L11.3 -19.5M0 -26L0 -13"/>
+</g>
+<g id="forge" transform="translate(340 166) scale(1.15)">
+<path class="shl" d="M-39 7.5L0 30L0 22.5L-39 0Z"/><path class="shr" d="M0 30L39 7.5L39 0L0 22.5Z"/><path class="sht" d="M0 -22.5L39 0L0 22.5L-39 0Z"/><path class="she" stroke-width=".8" d="M-39 0L0 22.5L39 0"/><path class="rib" stroke-width=".8" d="M0 -18.8L32.6 0L0 18.8L-32.6 0Z"/>
+<path class="shadow" opacity=".16" filter="url(#soft2)" d="M0 -15L28.6 1.5L0 18L-28.6 1.5Z"/><path class="shl" d="M-26.8 0L0 15.5L0 7.5L-26.8 -8Z"/><path class="shr" d="M0 15.5L26.8 0L26.8 -8L0 7.5Z"/><path class="sht" d="M0 -23.5L26.8 -8L0 7.5L-26.8 -8Z"/><path class="she" stroke-width=".8" d="M-26.8 -8L0 7.5L26.8 -8"/><path class="aP" d="M0 -17L15.6 -8L0 1L-15.6 -8Z"/><path class="tra" stroke-width="1" opacity=".7" d="M-15.6 -8L0 1L15.6 -8"/><g filter="url(#glow)"><path class="aL" d="M-13 -12L0 -4.5L0 -19.5L-13 -27Z"/><path class="aR" d="M0 -4.5L13 -12L13 -27L0 -19.5Z"/><path class="aT" d="M0 -34.5L13 -27L0 -19.5L-13 -27Z"/></g><path class="chk" stroke-width="1.8" d="M-9.5 -17.5L-6.9 -13L-2.6 -17"/>
+</g>
+<g id="art" transform="translate(464 166) scale(1.15)">
+<path class="shl" d="M-39 7.5L0 30L0 22.5L-39 0Z"/><path class="shr" d="M0 30L39 7.5L39 0L0 22.5Z"/><path class="sht" d="M0 -22.5L39 0L0 22.5L-39 0Z"/><path class="she" stroke-width=".8" d="M-39 0L0 22.5L39 0"/><path class="rib" stroke-width=".8" d="M0 -18.8L32.6 0L0 18.8L-32.6 0Z"/>
+<path class="shadow" opacity=".16" filter="url(#soft2)" d="M0 -11.2L27.3 4.5L0 20.2L-27.3 4.5Z"/>
+<path class="shl" d="M-15.6 -2.2L3.9 9L3.9 6.6L-15.6 -4.7Z"/><path class="shr" d="M15.6 2.2L3.9 9L3.9 6.6L15.6 -0.2Z"/><path class="sht" d="M-3.9 -11.4L15.6 -0.2L3.9 6.6L-15.6 -4.7Z"/>
+<path class="shr" d="M16 4.9L12.6 6.8L12.6 -20L16 -22Z"/><path class="sht" d="M-12.6 -38.5L16 -22L12.6 -20L-16 -36.5Z"/><path class="shl" d="M-16 -9.7L12.6 6.8L12.6 -20L-16 -36.5Z"/>
+<g transform="matrix(12.99 7.5 0 -15 -1.689 .975)"><rect class="aP" x="-.86" y=".38" width="1.72" height="1.35"/><circle class="aT" cx=".42" cy="1.38" r=".19" filter="url(#glow)"/><path class="aR" d="M-.86 .38V.78L-.4 1.28L-.06 .92L.28 1.12L.86 .62V.38Z"/><path class="aL" d="M-.86 .38V.55L-.4 1.0L-.1 .72L.24 .88L.86 .42V.38Z" opacity=".9"/></g>
+<path class="she" stroke-width=".8" stroke-linejoin="round" d="M-16 -36.5L-16 -9.7L12.6 6.8L12.6 -20"/>
+</g>
+<g id="ship" transform="translate(588 166) scale(1.15)">
+<path class="shl" d="M-39 7.5L0 30L0 22.5L-39 0Z"/><path class="shr" d="M0 30L39 7.5L39 0L0 22.5Z"/><path class="sht" d="M0 -22.5L39 0L0 22.5L-39 0Z"/><path class="she" stroke-width=".8" d="M-39 0L0 22.5L39 0"/><path class="rib" stroke-width=".8" d="M0 -18.8L32.6 0L0 18.8L-32.6 0Z"/>
+<path class="shadow" opacity=".16" filter="url(#soft2)" d="M0 -12L28.6 4.5L0 21L-28.6 4.5Z"/>
+<path class="shl" d="M-23.4 0L0 13.5L0 -4.5L-23.4 -18Z"/><path class="shr" d="M23.4 0L0 13.5L0 -4.5L23.4 -18Z"/><path class="sht" d="M0 -31.5L23.4 -18L0 -4.5L-23.4 -18Z"/>
+<path class="aT" d="M-9.1 -26.2L14.3 -12.8L9.1 -9.8L-14.3 -23.2Z"/><path class="aR" d="M14.3 5.2L9.1 8.2L9.1 -9.8L14.3 -12.8Z"/>
+<path class="she" stroke-width=".8" d="M-23.4 -18L0 -4.5L23.4 -18"/>
+<g filter="url(#glow)"><path class="aL" transform="matrix(12.99 7.5 0 -15 0 0)" d="M0 2.75L.52 2.2H.2V1.55H-.2V2.2H-.52Z"/></g>
+</g>
+<text class="acc mono" x="340" y="219" font-size="9.5" font-weight="700" letter-spacing="1.4" text-anchor="middle">SHARED LAYER · UNDER EVERY STEP</text>
+<text class="sans t2" x="359" y="235" font-size="11.5" text-anchor="end"><tspan class="mono ink" font-size="11">RULES.md</tspan> · <tspan class="mono ink" font-size="11">state.json</tspan> · <tspan class="mono ink" font-size="11">MODLOG.md</tspan> · evidence:</text>
+<circle class="aL" cx="369" cy="231" r="3.2"/>
+<circle class="evo" cx="440" cy="231" r="2.7" stroke-width="1.2"/><path class="aL" d="M440 227.7A3.3 3.3 0 0 0 440 234.3Z"/>
+<circle class="evo" cx="502" cy="231" r="2.7" stroke-width="1.2"/>
+<g class="sans t2" font-size="11.5"><text x="377" y="235">observed</text><text x="448" y="235">inferred</text><text x="510" y="235">unknown</text></g>
+<g class="sans" text-anchor="middle">
+<text x="92" y="40" font-size="15" font-weight="650" class="ink"><tspan class="mono acc" font-size="10.5" font-weight="600">01</tspan><tspan dx="6">recon</tspan></text>
+<text class="t2" x="92" y="58" font-size="12">scan the target</text>
+<text class="t3" x="92" y="73" font-size="10.5">engine · anti-cheat</text>
+<text class="mono t3" x="92" y="91" font-size="10.5">uh scan</text>
+<text class="mono t3" x="92" y="104" font-size="10.5">uh kb</text>
+<text x="216" y="40" font-size="15" font-weight="650" class="ink"><tspan class="mono acc" font-size="10.5" font-weight="600">02</tspan><tspan dx="6">dig</tspan></text>
+<text class="t2" x="216" y="58" font-size="12">decompile &amp; decode</text>
+<text class="t3" x="216" y="73" font-size="10.5">AES keys · formats</text>
+<text class="mono t3" x="216" y="91" font-size="10.5">REA</text>
+<text class="mono t3" x="216" y="104" font-size="10.5">uh probe</text>
+<text x="340" y="40" font-size="15" font-weight="650" class="ink"><tspan class="mono acc" font-size="10.5" font-weight="600">03</tspan><tspan dx="6">forge</tspan></text>
+<text class="t2" x="340" y="58" font-size="12">build &amp; verify</text>
+<text class="t3" x="340" y="73" font-size="10.5">backup · test in game</text>
+<text class="mono t3" x="340" y="91" font-size="10.5">uh backup</text>
+<text class="mono t3" x="340" y="104" font-size="10.5">uh win</text>
+<text x="464" y="40" font-size="15" font-weight="650" class="ink"><tspan class="mono acc" font-size="10.5" font-weight="600">04</tspan><tspan dx="6">art</tspan></text>
+<text class="t2" x="464" y="58" font-size="12">local assets</text>
+<text class="t3" x="464" y="73" font-size="10.5">engine-ready files</text>
+<text class="mono t3" x="464" y="91" font-size="10.5">uh comfy</text>
+<text class="mono t3" x="464" y="104" font-size="10.5">uh sprite</text>
+<text x="588" y="40" font-size="15" font-weight="650" class="ink"><tspan class="mono acc" font-size="10.5" font-weight="600">05</tspan><tspan dx="6">ship</tspan></text>
+<text class="t2" x="588" y="58" font-size="12">release &amp; share</text>
+<text class="t3" x="588" y="73" font-size="10.5">lint · clip · field note</text>
+<text class="mono t3" x="588" y="91" font-size="10.5">uh publish</text>
+<text class="mono t3" x="588" y="104" font-size="10.5">uh video</text>
+</g>
+<text class="t3 sans" x="340" y="273" font-size="11" text-anchor="middle">your copy · offline · no anti-cheat or DRM bypass · free tools</text>
+</svg>

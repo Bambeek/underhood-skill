@@ -1,0 +1,18 @@
+{
+  "name": "underhood",
+  "owner": {
+    "name": "Bambeek",
+    "url": "https://github.com/Bambeek"
+  },
+  "metadata": {
+    "description": "Free Claude skills to mod games and apps you own."
+  },
+  "plugins": [
+    {
+      "name": "underhood",
+      "source": "./",
+      "description": "Mod games and apps you own: recon, reverse engineering, build, local assets, release. Free.",
+      "version": "1.0.0"
+    }
+  ]
+}

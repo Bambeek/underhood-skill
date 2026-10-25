@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="300" viewBox="0 0 680 300" role="img" aria-labelledby="t d">
+<title id="t">Underhood</title>
+<desc id="d">Underhood, a free Claude Code skill pack: pop the hood on any game you own. Five steps: recon, dig, forge, art, ship. Token-lean, free local tools, MIT. An isometric game console with its lid propped open on a rod shows a glowing processor, decompiled code lifting out of it, a magnifier reading the bytes 4D 5A on a chip, and a cabled gamepad.</desc>
+<style>
+svg{--bg0:#FDFCFA;--bg1:#F4F2ED;--line:#E4E0D7;--grid:#DAD5CB;--ink:#16151D;--t2:#423F4B;--t3:#5E5A67;--acc:#5446D6;--acch:#7A6EF2;--accl:#3A2FB8;--accp:#ECE9FA;--accg:#8F84F5;--sht:#FFFFFF;--shl:#D9DCE5;--shr:#BCC1CF;--she:#A7ADBD;--lid:#D3D6E0;--rib:#BCC1CD;--pcb:#171C33;--pwl:#10152A;--pwr:#0B0F20;--trc:#323C68;--pad:#4A5480;--cht:#2A3150;--chl:#1E2440;--chr:#151A31;--cpt:#AEB4CB;--cpb:#6E7593;--glt:#FFFFFF;--gll:#E6E3FB;--glr:#D1CCF6;--code:#C5CAD8;--mtt:#D6D9E2;--mts:#9097AB;--mtd:#5B6278;--dt:#F4F2FF;--dl:#C9C2FF;--dr:#A89DFF;--shadow:#1E1B2A}
+@media (prefers-color-scheme:dark){svg{--bg0:#151A2A;--bg1:#0F1320;--line:#252C3F;--grid:#222940;--ink:#F2F4FA;--t2:#BCC2D3;--t3:#959CB2;--acc:#A398FF;--acch:#8F82FF;--accl:#6A5CF5;--accp:#24224A;--accg:#7B6CFF;--sht:#3A4364;--shl:#2A3150;--shr:#1F253D;--she:#56608C;--lid:#272F4D;--rib:#343D60;--pcb:#0B0E1B;--pwl:#080B16;--pwr:#060811;--trc:#28305A;--pad:#3E4775;--cht:#252C49;--chl:#1A2038;--chr:#12172B;--cpt:#8E95B2;--cpb:#4F5675;--glt:#1F2546;--gll:#191E3B;--glr:#141831;--code:#3C4570;--mtt:#6C7598;--mts:#454D6E;--mtd:#2E3452;--dt:#E4E0FF;--dl:#B3A9FF;--dr:#8E82FF;--shadow:#000000}}
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.ink{fill:var(--ink)}.t2{fill:var(--t2)}.t3{fill:var(--t3)}.acc{fill:var(--acc)}
+.card{fill:url(#bg);stroke:var(--line)}
+.grid{stroke:var(--grid);fill:none}
+.sht{fill:var(--sht)}.shl{fill:var(--shl)}.shr{fill:var(--shr)}
+.she{fill:none;stroke:var(--she)}
+.lid{fill:var(--lid)}.rib{fill:none;stroke:var(--rib)}
+.pcb{fill:var(--pcb)}.pwl{fill:var(--pwl)}.pwr{fill:var(--pwr)}
+.trc{fill:none;stroke:var(--trc);stroke-linecap:round;stroke-linejoin:round}
+.tra{fill:none;stroke:var(--acch);stroke-linecap:round;stroke-linejoin:round}
+.pad{fill:var(--pad)}
+.cht{fill:var(--cht)}.chl{fill:var(--chl)}.chr{fill:var(--chr)}
+.cpt{fill:var(--cpt)}.cpS{stroke:var(--cpt)}
+.glt{fill:var(--glt)}.gll{fill:var(--gll)}.glr{fill:var(--glr)}
+.gle{fill:none;stroke:var(--acch);stroke-opacity:.8}
+.code{fill:none;stroke:var(--code);stroke-linecap:round}
+.codea{fill:none;stroke:var(--acc);stroke-linecap:round}
+.mtt{fill:var(--mtt)}.mts{fill:var(--mts)}.mtd{fill:var(--mtd)}
+.aT{fill:var(--acch)}.aL{fill:var(--acc)}.aR{fill:var(--accl)}.aP{fill:var(--accp)}
+.shadow{fill:var(--shadow)}
+.dT{fill:var(--dt)}.dL{fill:var(--dl)}.dR{fill:var(--dr)}
+.mtdS{stroke:var(--mtd)}.mtsS{stroke:var(--mts)}.mttS{stroke:var(--mtt)}.sheS{stroke:var(--she)}.shtS{stroke:var(--sht)}
+.s0{stop-color:var(--bg0)}.s1{stop-color:var(--bg1)}
+.sa{stop-color:var(--accg)}.sah{stop-color:var(--acch)}.sal{stop-color:var(--accl)}
+.sml{stop-color:var(--shl)}.smr{stop-color:var(--shr)}
+.scb{stop-color:var(--cpb)}.sct{stop-color:var(--cpt)}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="s0"/><stop offset="1" class="s1"/></linearGradient>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+<filter id="drop" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="2.4"/><feOffset dy="3"/><feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<radialGradient id="fadeG" cx="527.2" cy="193.9" r="200" gradientUnits="userSpaceOnUse" gradientTransform="translate(527.2 193.9) scale(1 .6) translate(-527.2 -193.9)"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".6" stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="fade"><rect y="-20" width="680" height="300" fill="url(#fadeG)"/></mask>
+<radialGradient id="halo" cx="539" cy="154" r="175" gradientUnits="userSpaceOnUse"><stop offset="0" class="sa" stop-opacity=".17"/><stop offset="1" class="sa" stop-opacity="0"/></radialGradient>
+<radialGradient id="pool" cx="536.1" cy="174" r="64" gradientUnits="userSpaceOnUse" gradientTransform="translate(536.1 174) scale(1 .58) translate(-536.1 -174)"><stop offset="0" class="sa" stop-opacity=".7"/><stop offset=".45" class="sa" stop-opacity=".22"/><stop offset="1" class="sa" stop-opacity="0"/></radialGradient>
+<linearGradient id="beam" x1="0" y1="1" x2="0" y2="0"><stop offset="0" class="sah" stop-opacity=".5"/><stop offset="1" class="sah" stop-opacity="0"/></linearGradient>
+<linearGradient id="capB" x1="0" y1="0" x2="1" y2="0"><stop offset="0" class="sct"/><stop offset="1" class="scb"/></linearGradient>
+<linearGradient id="gpS" x1="398" y1="0" x2="476" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" class="sml"/><stop offset=".55" class="sml"/><stop offset=".75" class="smr"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".34"/><stop offset=".5" stop-color="#fff" stop-opacity=".03"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient>
+<clipPath id="hole"><path d="M517.6 102.4L637.7 171.7L560.8 216.1L440.8 146.7Z"/></clipPath>
+<clipPath id="lensC"><ellipse cx="584" cy="192.6" rx="30.5" ry="17.6"/></clipPath>
+<path id="gp" transform="matrix(14.853 4.753 -8.233 8.575 410.733 208.43)" d="M-1.15 -.62H1.15A.62 .62 0 0 1 1.77 0V.45A.66 .66 0 0 1 .62 .92L.35 .55H-.35L-.62 .92A.66 .66 0 0 1 -1.77 .45V0A.62 .62 0 0 1 -1.15 -.62Z"/>
+</defs>
+<rect class="card" x=".5" y=".5" width="679" height="299" rx="16"/>
+<rect x="300" y="1" width="379" height="298" fill="url(#halo)"/>
+<g transform="translate(0 14)">
+<path class="grid" mask="url(#fade)" stroke-width=".8" d="M493.6 12.2L205.4 178.6M511.6 22.6L223.4 189M529.6 33L241.4 199.4M547.6 43.4L259.4 209.8M565.6 53.8L277.4 220.2M583.6 64.2L295.5 230.6M601.7 74.6L313.5 241M619.7 85L331.5 251.4M637.7 95.4L349.5 261.8M655.7 105.8L367.5 272.2M673.7 116.2L385.5 282.6M691.7 126.6L403.5 293M709.7 137L421.5 303.4M727.7 147.4L439.6 313.8M745.8 157.8L457.6 324.2M763.8 168.2L475.6 334.6M781.8 178.6L493.6 345M799.8 189L511.6 355.4M817.8 199.4L529.6 365.8M835.8 209.8L547.6 376.2M853.8 220.2L565.6 386.6M493.6 12.2L853.8 220.2M475.6 22.6L835.8 230.6M457.6 33L817.8 241M439.6 43.4L799.8 251.4M421.5 53.8L781.8 261.8M403.5 64.2L763.8 272.2M385.5 74.6L745.8 282.6M367.5 85L727.7 293M349.5 95.4L709.7 303.4M331.5 105.8L691.7 313.8M313.5 116.2L673.7 324.2M295.5 126.6L655.7 334.6M277.4 137L637.7 345M259.4 147.4L619.7 355.4M241.4 157.8L601.7 365.8M223.4 168.2L583.6 376.2M205.4 178.6L565.6 386.6"/>
+<path class="shadow" opacity=".22" filter="url(#soft)" d="M515.2 119L660.5 202.9L559.6 261.1L414.3 177.2Z"/>
+<g id="lid">
+<path class="shr" d="M649.7 171.7L610.7 102L614 98.3L652.9 168Z"/>
+<path class="lid" d="M517.6 95.4L649.7 171.7L610.7 102L478.7 25.7Z"/>
+<path class="sht" d="M478.7 25.7L610.7 102L614 98.3L481.9 22Z"/>
+<g transform="matrix(12.008 6.933 -5.264 -9.423 517.604 95.425)"><rect class="rib" x=".75" y=".75" width="9.5" height="5.9" rx=".55" stroke-width="1.2" vector-effect="non-scaling-stroke"/><rect class="rib" x="1.5" y="1.5" width="8" height="4.4" rx=".35" stroke-width="1" vector-effect="non-scaling-stroke" opacity=".6"/></g>
+<path class="she" stroke-width=".8" stroke-linejoin="round" opacity=".65" d="M517.6 95.4L478.7 25.7L481.9 22L614 98.3L652.9 168L649.7 171.7"/>
+<g transform="matrix(.866 .5 -.378 -.68 517.6 95.4)"><rect class="mts" x="4.6" y="59" width="10" height="9.2" rx="2"/><rect class="mtd" x="7.4" y="61.6" width="4.4" height="4" rx="1.4"/></g>
+</g>
+<g id="console">
+<g id="shell">
+<path class="shl" d="M428.7 174.5L560.8 250.7L560.8 223L428.7 146.7Z"/>
+<path class="shr" d="M649.7 199.4L560.8 250.7L560.8 223L649.7 171.7Z"/>
+<path class="sht" d="M517.6 95.4L649.7 171.7L560.8 223L428.7 146.7Z"/>
+<g transform="matrix(12.008 6.933 0 -13.866 428.745 174.459)"><rect class="mtd" x="1.2" y=".52" width=".8" height=".4" rx=".12"/><rect class="mtd" x="2.3" y=".52" width=".8" height=".4" rx=".12"/><circle class="aT" cx="10.3" cy="1" r=".15" filter="url(#glow)"/></g>
+<text class="mono mts" transform="matrix(.866 .5 0 1 428.75 146.7)" x="88" y="16.2" font-size="7" font-weight="700" letter-spacing="2.1" text-anchor="middle">UNDERHOOD</text>
+<g transform="matrix(-12.008 6.933 0 -13.866 649.693 199.417)" class="shr"><rect x="1.2" y=".55" width=".26" height=".9" rx=".13"/><rect x="1.8" y=".55" width=".26" height=".9" rx=".13"/><rect x="2.4" y=".55" width=".26" height=".9" rx=".13"/><rect x="3" y=".55" width=".26" height=".9" rx=".13"/><rect x="3.6" y=".55" width=".26" height=".9" rx=".13"/><rect x="4.2" y=".55" width=".26" height=".9" rx=".13"/></g>
+<path class="she" stroke-width="1" d="M428.7 146.7L560.8 223L649.7 171.7"/>
+<path class="she" stroke-width="1" stroke-linejoin="round" opacity=".7" d="M517.6 95.4L649.7 171.7L649.7 199.4L560.8 250.7L428.7 174.5L428.7 146.7Z"/>
+</g>
+<g id="inside" clip-path="url(#hole)">
+<path class="pcb" d="M517.6 119L637.7 188.3L560.8 232.7L440.8 163.4Z"/>
+<path class="pwr" d="M517.6 119L440.8 163.4L440.8 146.7L517.6 102.4Z"/>
+<path class="pwl" d="M517.6 119L637.7 188.3L637.7 171.7L517.6 102.4Z"/>
+<rect x="461" y="128" width="150" height="96" fill="url(#pool)"/>
+<path class="tra" stroke-width="1" opacity=".45" d="M536.1 148.5L582.9 175.5L536.1 202.5L489.3 175.5Z"/>
+<path class="trc" stroke-width="1.7" d="M519.6 157L516.4 155.1L516.4 148.8L542.8 133.6M548.2 194.9L557.2 200.1L557.2 208.4L536.8 220.2M524.8 195.3L509.2 204.3M502 182.1L496 185.6L481.6 186.9M604.1 188.3L622.1 198.7"/>
+<path class="tra" stroke-width="1.7" filter="url(#glow)" d="M562.1 178L580.6 188.7L580.6 196.3M555 163.1L569.8 154.6L585.4 154.6L590.3 151.8M510.2 174L500.2 168.2M520 187.5L508.6 194.1L508.6 202.5"/>
+<g class="pad"><ellipse cx="519.6" cy="157" rx="2.6" ry="1.5"/><ellipse cx="548.2" cy="194.9" rx="2.6" ry="1.5"/><ellipse cx="524.8" cy="195.3" rx="2.6" ry="1.5"/><ellipse cx="502" cy="182.1" rx="2.6" ry="1.5"/><ellipse cx="604.1" cy="188.3" rx="2.6" ry="1.5"/></g>
+<g class="aT" filter="url(#glow)"><ellipse cx="590.3" cy="151.8" rx="2.4" ry="1.4"/><ellipse cx="500.2" cy="168.2" rx="2.4" ry="1.4"/></g>
+<path class="trc cpS" stroke-width="1.6" d="M521.6 130.2v-5M530.3 135.2v-5M539 140.2v-5M547.6 145.2v-5"/>
+<path class="trc cpS" stroke-width="1.5" d="M467.9 159.6L465.2 161.1M475.6 164L472.9 165.6M483.3 168.5L480.6 170M503.2 162.6L505.8 164.1M496 166.8L498.6 168.3"/>
+<path class="chl" d="M463 156.8L488.2 171.3L488.2 167.7L463 153.2Z"/>
+<path class="chr" d="M508 159.9L488.2 171.3L488.2 167.7L508 156.3Z"/>
+<path class="cht" d="M482.8 141.7L508 156.3L488.2 167.7L463 153.2Z"/>
+<ellipse class="pad" cx="482.8" cy="146.6" rx="1.8" ry="1.05"/>
+<path class="trc" style="stroke:var(--pad)" stroke-width="1.5" d="M484 150.7L496 157.7M479.8 153.2L488.2 158"/>
+<path class="trc cpS" stroke-width="1.5" d="M588.9 184.2L586.2 185.7M597.1 188.9L594.5 190.4M605.3 193.6L602.7 195.1M565.2 197.8L562.6 199.4M573.4 202.5L570.8 204M581.6 207.2L578.9 208.8"/>
+<path class="chl" d="M560.2 194.9L586.7 210.2L586.7 206.3L560.2 191Z"/>
+<path class="chr" d="M607.7 198L586.7 210.2L586.7 206.3L607.7 194.1Z"/>
+<path class="cht" d="M581.2 178.9L607.7 194.1L586.7 206.3L560.2 191Z"/>
+<path class="cpt" d="M562.9 208.5V217.1A5.8 3.3 0 0 0 574.4 217.1V208.5Z" style="fill:url(#capB)"/>
+<ellipse class="cpt" cx="568.6" cy="208.5" rx="5.8" ry="3.3"/>
+<path class="cpt" d="M542.5 208.5V217.1A5.8 3.3 0 0 0 554 217.1V208.5Z" style="fill:url(#capB)"/>
+<ellipse class="cpt" cx="548.2" cy="208.5" rx="5.8" ry="3.3"/>
+<path class="shadow" opacity=".35" filter="url(#glow)" d="M536.1 160L564 176L536.1 192L508.2 176Z"/>
+<path class="chl" d="M510.2 176L536.1 191L536.1 187L510.2 172Z"/>
+<path class="chr" d="M536.1 191L562.1 176L562.1 172L536.1 187Z"/>
+<path class="cht" d="M536.1 157L562.1 172L536.1 187L510.2 172Z"/>
+<path class="tra" stroke-width=".9" opacity=".55" d="M536.1 159.6L557.6 172L536.1 184.4L514.6 172Z"/>
+<g filter="url(#glow)"><path class="aL" d="M522.3 172L536.1 180L536.1 177.5L522.3 169.5Z"/><path class="aR" d="M536.1 180L550 172L550 169.5L536.1 177.5Z"/><path class="aT" d="M536.1 161.5L550 169.5L536.1 177.5L522.3 169.5Z"/><path class="dT" d="M536.1 165.5L543 169.5L536.1 173.5L529.2 169.5Z"/></g>
+</g>
+</g>
+<g id="hinges"><rect class="shr" x="-8" y="-2.6" width="16" height="5.2" rx="2.6" transform="translate(543.6 110.6) rotate(30)"/><rect class="shr" x="-8" y="-2.6" width="16" height="5.2" rx="2.6" transform="translate(623.2 156.6) rotate(30)"/><path class="shtS" stroke-width="1" stroke-linecap="round" opacity=".8" d="M538.4 106.8L548 112.3M618 152.8L627.6 158.3"/></g>
+<g id="rod">
+<path class="shl" d="M447.3 140.3L454.8 144.7L454.8 138.2L447.3 133.8Z"/><path class="shr" d="M454.8 144.7L462.6 140.2L462.6 133.7L454.8 138.2Z"/><path class="sht" d="M455.1 129.3L462.6 133.7L454.8 138.2L447.3 133.8Z"/><path class="she" stroke-width=".8" d="M447.3 133.8L454.8 138.2L462.6 133.7"/>
+<path class="mtdS" d="M454.6 133.6L501.6 59.4" stroke-width="2.6" stroke-linecap="round"/>
+<path class="mttS" d="M453.9 132.9L500.9 58.8" stroke-width=".8" stroke-linecap="round" opacity=".85"/>
+<ellipse class="mtd" cx="454.8" cy="133.9" rx="2.4" ry="1.4"/>
+</g>
+<path d="M524.1 167.5V97.9H548.1V167.5Z" style="fill:url(#beam)"/>
+<g filter="url(#drop)">
+<path class="gll" d="M506.8 136.3L542.8 157.1L542.8 154.4L506.8 133.6Z"/>
+<path class="glr" d="M569.2 141.9L542.8 157.1L542.8 154.4L569.2 139.1Z"/>
+<path class="glt" d="M533.2 118.3L569.2 139.1L542.8 154.4L506.8 133.6Z"/>
+</g>
+<path class="gle" stroke-width=".8" stroke-linejoin="round" d="M533.2 118.3L569.2 139.1L542.8 154.4L506.8 133.6Z"/>
+<path class="code" stroke-width="1.7" d="M531.8 124L549.8 134.4M530.6 128.8L553.4 142M517.4 132.3L541.4 146.2"/>
+<path class="codea" stroke-width="1.7" d="M525.8 131.6L541.4 140.6"/>
+<g filter="url(#drop)">
+<path class="gll" d="M513.4 118.6L549.4 139.4L549.4 136.7L513.4 115.9Z"/>
+<path class="glr" d="M575.8 124.2L549.4 139.4L549.4 136.7L575.8 121.4Z"/>
+<path class="glt" d="M539.8 100.6L575.8 121.4L549.4 136.7L513.4 115.9Z"/>
+</g>
+<path class="gle" stroke-width=".8" stroke-linejoin="round" d="M539.8 100.6L575.8 121.4L549.4 136.7L513.4 115.9Z"/>
+<path class="code" stroke-width="1.7" d="M538.4 106.3L556.4 116.7M532.4 113.9L548 122.9M524 114.6L548 128.5"/>
+<path class="codea" stroke-width="1.7" d="M537.2 111.2L560 124.3"/>
+<g filter="url(#drop)">
+<path class="gll" d="M520 101L556 121.8L556 119L520 98.2Z"/>
+<path class="glr" d="M582.4 106.5L556 121.8L556 119L582.4 103.7Z"/>
+<path class="glt" d="M546.4 82.9L582.4 103.7L556 119L520 98.2Z"/>
+</g>
+<path class="gle" stroke-width=".8" stroke-linejoin="round" d="M546.4 82.9L582.4 103.7L556 119L520 98.2Z"/>
+<path class="code" stroke-width="1.7" d="M545 88.6L563 99M539 96.3L554.6 105.3M530.6 97L554.6 110.8"/>
+<path class="codea" stroke-width="1.7" d="M543.8 93.5L566.6 106.7"/>
+<g id="magnifier">
+<path class="shadow" opacity=".14" filter="url(#soft)" d="M560 214L642 248L650 240L606 206Z"/>
+<path class="mtdS" d="M611 209.5L645.5 236.3" stroke-width="5.6" stroke-linecap="round"/>
+<path class="mtsS" d="M611 207.7L645.5 234.5" stroke-width="5.6" stroke-linecap="round"/>
+<path class="mttS" d="M622 214.6L644.4 232.4" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+<path class="mtdS" d="M609.5 207.8L620.5 216.4" stroke-width="7" stroke-linecap="round"/>
+<ellipse class="mtd" cx="584" cy="194.9" rx="35" ry="20.2"/>
+<ellipse class="mts" cx="584" cy="193.7" rx="35" ry="20.2"/>
+<ellipse class="mtt" cx="584" cy="192.6" rx="35" ry="20.2"/>
+<g clip-path="url(#lensC)">
+<rect class="pcb" x="550" y="172" width="70" height="42"/>
+<path class="trc" stroke-width="2.4" d="M548 214L566 203.6M604 172L622 182.4"/>
+<path class="cht" d="M579.9 172L619.6 194.9L588.1 213.2L548.4 190.3Z"/>
+<path class="tra" stroke-width="1" opacity=".5" d="M580 175.4L613.7 194.9L588 209.8L554.3 190.3Z"/>
+<text class="mono dL" transform="matrix(.866 .5 -.866 .5 584 192.6)" x="0" y="5" font-size="14" font-weight="700" letter-spacing=".4" text-anchor="middle" filter="url(#glow)">4D 5A</text>
+</g>
+<ellipse cx="584" cy="192.6" rx="30.5" ry="17.6" fill="url(#glass)"/>
+<ellipse class="mtdS" fill="none" cx="584" cy="192.6" rx="30.5" ry="17.6" stroke-width="1"/>
+<path d="M565.2 203.6A26 15 0 0 1 559.6 186.6" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g id="gamepad">
+<path class="mtdS" d="M469.6 188L468.2 189L466.6 189.9L464.9 190.8L463.2 191.6L461.3 192.4L459.3 193.2L457.3 194L455.1 194.7L452.9 195.4L450.6 196.1L448.3 196.8L445.9 197.4L443.4 198L440.9 198.6L438.4 199.1L435.9 199.7L433.4 200.2L430.8 200.7L428.3 201.1L425.7 201.6L423.2 202L420.7 202.4L418.3 202.8L415.8 203.1" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="mtsS" d="M469.6 188L468.2 189L466.6 189.9L464.9 190.8L463.2 191.6L461.3 192.4L459.3 193.2L457.3 194L455.1 194.7L452.9 195.4L450.6 196.1L448.3 196.8L445.9 197.4L443.4 198L440.9 198.6L438.4 199.1L435.9 199.7L433.4 200.2L430.8 200.7L428.3 201.1L425.7 201.6L423.2 202L420.7 202.4L418.3 202.8L415.8 203.1" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" transform="translate(-.4 -.6)"/>
+<use href="#gp" class="shadow" opacity=".16" y="5" filter="url(#soft)"/>
+<g style="fill:url(#gpS)"><use href="#gp" y="4.2"/><use href="#gp" y="3.5"/><use href="#gp" y="2.8"/><use href="#gp" y="2.1"/><use href="#gp" y="1.4"/><use href="#gp" y=".7"/></g>
+<use href="#gp" class="sht"/>
+<use href="#gp" class="sheS" fill="none" stroke-width=".7" opacity=".55"/>
+<g transform="matrix(14.853 4.753 -8.233 8.575 410.733 208.43)"><path class="shr" d="M-1.32 -.15h.24v-.24h.2v.24h.24v.2h-.24v.24h-.2v-.24h-.24Z"/><path class="mtd" d="M-1.32 -.2h.24v-.24h.2v.24h.24v.2h-.24v.24h-.2v-.24h-.24Z"/><g class="shr"><circle cx="1.12" cy="-.27" r=".12"/><circle cx="1.12" cy=".19" r=".12"/><circle cx=".9" cy="-.04" r=".12"/><circle cx="1.34" cy="-.04" r=".12"/></g><g class="mtd"><circle cx="1.12" cy="-.32" r=".12"/><circle cx="1.12" cy=".14" r=".12"/><circle cx=".9" cy="-.09" r=".12"/></g><circle class="aL" cx="1.34" cy="-.09" r=".12"/><rect class="shr" x="-.36" y="-.2" width=".26" height=".12" rx=".06"/><rect class="shr" x=".1" y="-.2" width=".26" height=".12" rx=".06"/></g>
+</g>
+</g>
+<g class="sans">
+<path class="aT" d="M44 53.9L48.8 56.7L44 59.5L39.2 56.7Z"/><path class="aL" d="M39.2 56.7L44 59.5L44 65.1L39.2 62.3Z"/><path class="aR" d="M44 59.5L48.8 56.7L48.8 62.3L44 65.1Z"/>
+<text class="acc mono" x="56" y="62.5" font-size="10.5" font-weight="600" letter-spacing="1.6">FREE CLAUDE CODE SKILL PACK</text>
+<text class="ink" x="38" y="114" font-size="50" font-weight="750" letter-spacing="-1.5">Underhood</text>
+<text class="t2" x="40" y="146" font-size="16.5" font-weight="500">Pop the hood on any game you own.</text>
+<text class="t3" x="40" y="168" font-size="14">Read it. Mod it. Prove it in game.</text>
+<rect x="40" y="190" width="266" height="30" rx="8" class="aP"/>
+<text class="mono" x="173" y="209.5" font-size="12.5" font-weight="500" text-anchor="middle"><tspan class="ink">recon</tspan><tspan class="acc"> · </tspan><tspan class="ink">dig</tspan><tspan class="acc"> · </tspan><tspan class="ink">forge</tspan><tspan class="acc"> · </tspan><tspan class="ink">art</tspan><tspan class="acc"> · </tspan><tspan class="ink">ship</tspan></text>
+<text class="t3 mono" x="40" y="246" font-size="10" font-weight="600" letter-spacing="1.2">TOKEN-LEAN<tspan class="acc"> · </tspan>FREE LOCAL TOOLS<tspan class="acc"> · </tspan>MIT</text>
+</g>
+</svg>

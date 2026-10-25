@@ -1,0 +1,14 @@
+{
+  "name": "underhood",
+  "description": "Five free Claude skills to mod games and apps you own: recon, reverse engineering with REA, building and testing the mod, local asset generation, release. No paid APIs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bambeek",
+    "url": "https://github.com/Bambeek"
+  },
+  "homepage": "https://github.com/Bambeek/underhood-skill",
+  "repository": "https://github.com/Bambeek/underhood-skill",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-skills", "game-modding", "reverse-engineering", "rea", "comfyui", "unreal", "unity", "bepinex", "electron"],
+  "skills": "./"
+}

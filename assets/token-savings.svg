@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="300" viewBox="0 0 680 300" role="img" aria-labelledby="t d">
+<title id="t">Underhood token and cost savings</title>
+<desc id="d">Bar lengths to scale, the longer bar is 100 percent. Compared with the universal-modder plus REA skills, Underhood cuts always-loaded skill descriptions from 6,671 to 1,111 characters (minus 83 percent), skill text for one mod-this-game run from 55 KB to 13 KB (minus 76 percent), and paid services from 3 (fal, Sprixen, Voidless) to 0 (ComfyUI and open models on your GPU).</desc>
+<style>
+svg{--bg0:#FDFCFA;--bg1:#F4F2ED;--line:#E4E0D7;--grid:#DAD5CB;--ink:#16151D;--t2:#423F4B;--t3:#5E5A67;--acc:#5446D6;--acch:#7A6EF2;--accl:#3A2FB8;--accp:#ECE9FA;--accg:#8F84F5;--sht:#FFFFFF;--shl:#D9DCE5;--shr:#BCC1CF;--she:#A7ADBD;--lid:#D3D6E0;--rib:#BCC1CD;--pcb:#171C33;--pwl:#10152A;--pwr:#0B0F20;--trc:#323C68;--pad:#4A5480;--cht:#2A3150;--chl:#1E2440;--chr:#151A31;--cpt:#AEB4CB;--cpb:#6E7593;--glt:#FFFFFF;--gll:#E6E3FB;--glr:#D1CCF6;--code:#C5CAD8;--mtt:#D6D9E2;--mts:#9097AB;--mtd:#5B6278;--dt:#F4F2FF;--dl:#C9C2FF;--dr:#A89DFF;--shadow:#1E1B2A;--bb0:#8B92A3;--bb1:#7E8597;--bbt:#BCC1CD;--bbr:#686F82;--seg:#16151D}
+@media (prefers-color-scheme:dark){svg{--bg0:#151A2A;--bg1:#0F1320;--line:#252C3F;--grid:#222940;--ink:#F2F4FA;--t2:#BCC2D3;--t3:#959CB2;--acc:#A398FF;--acch:#8F82FF;--accl:#6A5CF5;--accp:#24224A;--accg:#7B6CFF;--sht:#3A4364;--shl:#2A3150;--shr:#1F253D;--she:#56608C;--lid:#272F4D;--rib:#343D60;--pcb:#0B0E1B;--pwl:#080B16;--pwr:#060811;--trc:#28305A;--pad:#3E4775;--cht:#252C49;--chl:#1A2038;--chr:#12172B;--cpt:#8E95B2;--cpb:#4F5675;--glt:#1F2546;--gll:#191E3B;--glr:#141831;--code:#3C4570;--mtt:#6C7598;--mts:#454D6E;--mtd:#2E3452;--dt:#E4E0FF;--dl:#B3A9FF;--dr:#8E82FF;--shadow:#000000;--bb0:#68719A;--bb1:#5A6389;--bbt:#838CB3;--bbr:#454D72;--seg:#F2F4FA}}
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.ink{fill:var(--ink)}.t2{fill:var(--t2)}.t3{fill:var(--t3)}.acc{fill:var(--acc)}
+.card{fill:url(#bg);stroke:var(--line)}
+.aT{fill:var(--acch)}.aL{fill:var(--acc)}.aR{fill:var(--accl)}
+.bF{fill:url(#gB)}.bT{fill:var(--bbt)}.bR{fill:var(--bbr)}.seg{fill:var(--seg)}
+.uF{fill:url(#gU)}.uT{fill:var(--dl)}.uR{fill:var(--accl)}
+.sep{stroke:var(--line);fill:none}
+.s0{stop-color:var(--bg0)}.s1{stop-color:var(--bg1)}.sah{stop-color:var(--acch)}.sal{stop-color:var(--accl)}
+.sb0{stop-color:var(--bb0)}.sb1{stop-color:var(--bb1)}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="s0"/><stop offset="1" class="s1"/></linearGradient>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="gB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="sb0"/><stop offset="1" class="sb1"/></linearGradient>
+<linearGradient id="gU" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="sah"/><stop offset="1" class="sal"/></linearGradient>
+</defs>
+<rect class="card" x=".5" y=".5" width="679" height="299" rx="16"/>
+<path class="aT" d="M44 27.9L48.8 30.7L44 33.5L39.2 30.7Z"/><path class="aL" d="M39.2 30.7L44 33.5L44 39.1L39.2 36.3Z"/><path class="aR" d="M44 33.5L48.8 30.7L48.8 36.3L44 39.1Z"/>
+<text class="acc mono" x="56" y="36.5" font-size="10.5" font-weight="600" letter-spacing="1.4">TOKENS &amp; COST · LOWER IS BETTER</text>
+<g class="sans" font-size="12" text-anchor="end">
+<text class="t2" x="520" y="37">universal-modder + REA skills</text>
+<text class="ink" x="622" y="37" font-weight="650">Underhood</text></g>
+<path class="bR" d="M534 29.5L540 26V35L534 38.5Z"/><path class="bT" d="M526 29.5L532 26H540L534 29.5Z"/><rect class="bF" x="526" y="29.5" width="8" height="9"/>
+<path class="uR" d="M634 29.5L640 26V35L634 38.5Z"/><path class="uT" d="M628 29.5L634 26H640L634 29.5Z"/><rect class="uF" x="628" y="29.5" width="6" height="9"/>
+<path class="sep" d="M40 54.5H640"/>
+<text class="ink sans" x="40" y="80.5" font-size="13.5" font-weight="600">Always-loaded skill descriptions</text>
+<path class="bR" d="M440 92.5L446 89V101L440 104.5Z"/><path class="bT" d="M40 92.5L46 89H446L440 92.5Z"/><rect class="bF" x="40" y="92.5" width="400" height="12"/>
+<path class="uR" d="M106.6 112.5L112.6 109V121L106.6 124.5Z"/><path class="uT" d="M40 112.5L46 109H112.6L106.6 112.5Z"/><rect class="uF" x="40" y="112.5" width="66.6" height="12"/>
+<text class="t2 sans" x="456" y="103" font-size="12.5" font-weight="500">6,671 chars</text>
+<text class="acc sans" x="122.6" y="123" font-size="12.5" font-weight="650">1,111 chars</text>
+<text class="acc sans" x="640" y="116" font-size="26" font-weight="750" text-anchor="end" letter-spacing="-.5">−83%</text>
+<path class="sep" d="M40 129.5H640"/>
+<text class="ink sans" x="40" y="155.5" font-size="13.5" font-weight="600">Skill text for one “mod this game” run</text>
+<path class="bR" d="M440 167.5L446 164V176L440 179.5Z"/><path class="bT" d="M40 167.5L46 164H446L440 167.5Z"/><rect class="bF" x="40" y="167.5" width="400" height="12"/>
+<path class="uR" d="M134.5 187.5L140.5 184V196L134.5 199.5Z"/><path class="uT" d="M40 187.5L46 184H140.5L134.5 187.5Z"/><rect class="uF" x="40" y="187.5" width="94.5" height="12"/>
+<text class="t2 sans" x="456" y="178" font-size="12.5" font-weight="500">55 KB</text>
+<text class="acc sans" x="150.5" y="198" font-size="12.5" font-weight="650">13 KB</text>
+<text class="acc sans" x="640" y="191" font-size="26" font-weight="750" text-anchor="end" letter-spacing="-.5">−76%</text>
+<path class="sep" d="M40 204.5H640"/>
+<text class="ink sans" x="40" y="230.5" font-size="13.5" font-weight="600">Paid services needed</text>
+<path class="bR" d="M168 242.5L174 239V251L168 254.5Z"/><path class="bT" d="M40 242.5L46 239H174L168 242.5Z"/><rect class="bF" x="40" y="242.5" width="128" height="12"/>
+<text class="seg sans" x="104" y="252.5" font-size="10.5" font-weight="600" text-anchor="middle" letter-spacing=".2">fal</text>
+<path class="bR" d="M304 242.5L310 239V251L304 254.5Z"/><path class="bT" d="M176 242.5L182 239H310L304 242.5Z"/><rect class="bF" x="176" y="242.5" width="128" height="12"/>
+<text class="seg sans" x="240" y="252.5" font-size="10.5" font-weight="600" text-anchor="middle" letter-spacing=".2">Sprixen</text>
+<path class="bR" d="M440 242.5L446 239V251L440 254.5Z"/><path class="bT" d="M312 242.5L318 239H446L440 242.5Z"/><rect class="bF" x="312" y="242.5" width="128" height="12"/>
+<text class="seg sans" x="376" y="252.5" font-size="10.5" font-weight="600" text-anchor="middle" letter-spacing=".2">Voidless</text>
+<text class="t2 sans" x="456" y="253" font-size="12.5" font-weight="500">3 services</text>
+<path class="uR" d="M45 263.5L51 260V272L45 275.5Z"/><path class="uT" d="M40 263.5L46 260H51L45 263.5Z"/><rect class="uF" x="40" y="263.5" width="5" height="12"/>
+<text class="sans" x="60" y="274" font-size="12.5"><tspan class="acc" font-weight="650">0</tspan><tspan class="t2" dx="7">ComfyUI + open models on your GPU</tspan></text>
+<text class="acc sans" x="640" y="266" font-size="26" font-weight="750" text-anchor="end" letter-spacing="-.5">3 → 0</text>
+</svg>
